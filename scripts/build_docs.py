@@ -75,14 +75,14 @@ All fifteen intentionally:
 
 ## Preview gallery
 
-Click any image to open its five-second MP4 preview.
+Each image below is a five-second animated GIF preview that plays directly on the page.
 
 | Rice | Preview | Motion and shell identity |
 |---|---|---|
 """
 rows = []
 for e in entries:
-    rows.append(f'| **{e["name"]}**<br><code>{e["slug"]}</code> | [![Preview for {e["name"]}](docs/posters/{e["slug"]}.jpg)](previews/{e["slug"]}.mp4) | {e["direction"]} **Bar:** {e["position"]} {e["bar"]}. **Keys:** {e["key_profile"]}. |')
+    rows.append(f'| **{e["name"]}**<br><code>{e["slug"]}</code> | ![Animated preview for {e["name"]}](previews/{e["slug"]}.gif) | {e["direction"]} **Bar:** {e["position"]} {e["bar"]}. **Keys:** {e["key_profile"]}. |')
 
 install = """
 
@@ -166,8 +166,8 @@ These manifests contain no install commands or arbitrary hooks. Applying a rice 
 
 ```text
 rices/<slug>/          Complete native Ryoku rice
-previews/<slug>.mp4    Five-second H.264 preview
-docs/posters/<slug>.jpg Clickable preview poster
+previews/<slug>.gif    Five-second inline animated preview
+docs/posters/<slug>.jpg Static preview poster/fallback
 scripts/install.sh     User-local installer
 scripts/verify.py      Manifest/media/integrity validation
 CREDITS.md             Artwork attribution and media notice

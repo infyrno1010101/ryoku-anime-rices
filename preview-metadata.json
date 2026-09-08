@@ -1,43 +1,14 @@
 {
-  "jujutsu-kaisen-season-3-culling-game-overdrive": {
+  "black-torch-mononoke-ember": {
     "programs": [],
     "stream_groups": [],
     "streams": [
       {
-        "codec_name": "h264",
-        "width": 1280,
-        "height": 720,
-        "r_frame_rate": "24/1"
-      }
-    ],
-    "format": {
-      "duration": "5.000000"
-    }
-  },
-  "frieren-season-2-aureole-reverie": {
-    "programs": [],
-    "stream_groups": [],
-    "streams": [
-      {
-        "codec_name": "h264",
-        "width": 1280,
-        "height": 720,
-        "r_frame_rate": "24/1"
-      }
-    ],
-    "format": {
-      "duration": "5.000000"
-    }
-  },
-  "witch-hat-atelier-silver-ink-coven": {
-    "programs": [],
-    "stream_groups": [],
-    "streams": [
-      {
-        "codec_name": "h264",
-        "width": 1280,
-        "height": 720,
-        "r_frame_rate": "24/1"
+        "codec_name": "gif",
+        "width": 640,
+        "height": 360,
+        "r_frame_rate": "10/1",
+        "nb_frames": "50"
       }
     ],
     "format": {
@@ -49,70 +20,11 @@
     "stream_groups": [],
     "streams": [
       {
-        "codec_name": "h264",
-        "width": 1280,
-        "height": 720,
-        "r_frame_rate": "24/1"
-      }
-    ],
-    "format": {
-      "duration": "5.000000"
-    }
-  },
-  "mushoku-tensei-mana-labyrinth": {
-    "programs": [],
-    "stream_groups": [],
-    "streams": [
-      {
-        "codec_name": "h264",
-        "width": 1280,
-        "height": 720,
-        "r_frame_rate": "24/1"
-      }
-    ],
-    "format": {
-      "duration": "5.000000"
-    }
-  },
-  "goodbye-lara-abyssal-farewell": {
-    "programs": [],
-    "stream_groups": [],
-    "streams": [
-      {
-        "codec_name": "h264",
-        "width": 1280,
-        "height": 720,
-        "r_frame_rate": "24/1"
-      }
-    ],
-    "format": {
-      "duration": "5.000000"
-    }
-  },
-  "polar-opposites-season-2-chromatic-polarity": {
-    "programs": [],
-    "stream_groups": [],
-    "streams": [
-      {
-        "codec_name": "h264",
-        "width": 1280,
-        "height": 720,
-        "r_frame_rate": "24/1"
-      }
-    ],
-    "format": {
-      "duration": "5.000000"
-    }
-  },
-  "ghost-in-the-shell-cyberbrain-rain": {
-    "programs": [],
-    "stream_groups": [],
-    "streams": [
-      {
-        "codec_name": "h264",
-        "width": 1280,
-        "height": 720,
-        "r_frame_rate": "24/1"
+        "codec_name": "gif",
+        "width": 640,
+        "height": 360,
+        "r_frame_rate": "10/1",
+        "nb_frames": "50"
       }
     ],
     "format": {
@@ -124,40 +36,11 @@
     "stream_groups": [],
     "streams": [
       {
-        "codec_name": "h264",
-        "width": 1280,
-        "height": 720,
-        "r_frame_rate": "24/1"
-      }
-    ],
-    "format": {
-      "duration": "5.000000"
-    }
-  },
-  "jojo-steel-ball-run-golden-spin": {
-    "programs": [],
-    "stream_groups": [],
-    "streams": [
-      {
-        "codec_name": "h264",
-        "width": 1280,
-        "height": 720,
-        "r_frame_rate": "24/1"
-      }
-    ],
-    "format": {
-      "duration": "5.000000"
-    }
-  },
-  "hells-paradise-season-2-tao-inferno": {
-    "programs": [],
-    "stream_groups": [],
-    "streams": [
-      {
-        "codec_name": "h264",
-        "width": 1280,
-        "height": 720,
-        "r_frame_rate": "24/1"
+        "codec_name": "gif",
+        "width": 640,
+        "height": 360,
+        "r_frame_rate": "10/1",
+        "nb_frames": "50"
       }
     ],
     "format": {
@@ -169,25 +52,123 @@
     "stream_groups": [],
     "streams": [
       {
-        "codec_name": "h264",
-        "width": 1280,
-        "height": 720,
-        "r_frame_rate": "24/1"
+        "codec_name": "gif",
+        "width": 640,
+        "height": 360,
+        "r_frame_rate": "10/1",
+        "nb_frames": "50"
       }
     ],
     "format": {
       "duration": "5.000000"
     }
   },
-  "one-piece-elbaph-giants-dawn": {
+  "frieren-season-2-aureole-reverie": {
     "programs": [],
     "stream_groups": [],
     "streams": [
       {
-        "codec_name": "h264",
-        "width": 1280,
-        "height": 720,
-        "r_frame_rate": "24/1"
+        "codec_name": "gif",
+        "width": 640,
+        "height": 360,
+        "r_frame_rate": "10/1",
+        "nb_frames": "50"
+      }
+    ],
+    "format": {
+      "duration": "5.000000"
+    }
+  },
+  "ghost-in-the-shell-cyberbrain-rain": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "gif",
+        "width": 640,
+        "height": 360,
+        "r_frame_rate": "10/1",
+        "nb_frames": "50"
+      }
+    ],
+    "format": {
+      "duration": "5.000000"
+    }
+  },
+  "goodbye-lara-abyssal-farewell": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "gif",
+        "width": 640,
+        "height": 360,
+        "r_frame_rate": "10/1",
+        "nb_frames": "50"
+      }
+    ],
+    "format": {
+      "duration": "5.000000"
+    }
+  },
+  "hells-paradise-season-2-tao-inferno": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "gif",
+        "width": 640,
+        "height": 360,
+        "r_frame_rate": "10/1",
+        "nb_frames": "50"
+      }
+    ],
+    "format": {
+      "duration": "5.000000"
+    }
+  },
+  "jojo-steel-ball-run-golden-spin": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "gif",
+        "width": 640,
+        "height": 360,
+        "r_frame_rate": "10/1",
+        "nb_frames": "50"
+      }
+    ],
+    "format": {
+      "duration": "5.000000"
+    }
+  },
+  "jujutsu-kaisen-season-3-culling-game-overdrive": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "gif",
+        "width": 640,
+        "height": 360,
+        "r_frame_rate": "10/1",
+        "nb_frames": "50"
+      }
+    ],
+    "format": {
+      "duration": "5.000000"
+    }
+  },
+  "mushoku-tensei-mana-labyrinth": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "gif",
+        "width": 640,
+        "height": 360,
+        "r_frame_rate": "10/1",
+        "nb_frames": "50"
       }
     ],
     "format": {
@@ -199,25 +180,59 @@
     "stream_groups": [],
     "streams": [
       {
-        "codec_name": "h264",
-        "width": 1280,
-        "height": 720,
-        "r_frame_rate": "24/1"
+        "codec_name": "gif",
+        "width": 640,
+        "height": 360,
+        "r_frame_rate": "10/1",
+        "nb_frames": "50"
       }
     ],
     "format": {
       "duration": "5.000000"
     }
   },
-  "black-torch-mononoke-ember": {
+  "one-piece-elbaph-giants-dawn": {
     "programs": [],
     "stream_groups": [],
     "streams": [
       {
-        "codec_name": "h264",
-        "width": 1280,
-        "height": 720,
-        "r_frame_rate": "24/1"
+        "codec_name": "gif",
+        "width": 640,
+        "height": 360,
+        "r_frame_rate": "10/1",
+        "nb_frames": "50"
+      }
+    ],
+    "format": {
+      "duration": "5.000000"
+    }
+  },
+  "polar-opposites-season-2-chromatic-polarity": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "gif",
+        "width": 640,
+        "height": 360,
+        "r_frame_rate": "10/1",
+        "nb_frames": "50"
+      }
+    ],
+    "format": {
+      "duration": "5.000000"
+    }
+  },
+  "witch-hat-atelier-silver-ink-coven": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "gif",
+        "width": 640,
+        "height": 360,
+        "r_frame_rate": "10/1",
+        "nb_frames": "50"
       }
     ],
     "format": {

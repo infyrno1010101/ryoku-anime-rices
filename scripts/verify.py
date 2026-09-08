@@ -22,8 +22,8 @@ def digest(path: Path) -> str:
 
 def probe(path: Path):
     proc = subprocess.run([
-        "ffprobe", "-v", "error",
-        "-show_entries", "format=duration:stream=codec_name,width,height,r_frame_rate",
+        "ffprobe", "-v", "error", "-count_frames",
+        "-show_entries", "format=duration:stream=codec_name,width,height,r_frame_rate,nb_read_frames",
         "-of", "json", str(path)
     ], text=True, capture_output=True)
     if proc.returncode:
@@ -72,7 +72,7 @@ for directory in rice_dirs:
         duration = float(metadata.get("format", {}).get("duration", 0))
         if stream.get("codec_name") != "h264" or stream.get("width") != 1920 or stream.get("height") != 1080 or abs(duration - 10) > 0.05:
             errors.append(f"{slug}: wallpaper media contract failed: {metadata}")
-    preview = PREVIEWS / f"{slug}.mp4"
+    preview = PREVIEWS / f"{slug}.gif"
     poster = POSTERS / f"{slug}.jpg"
     if not preview.is_file():
         errors.append(f"{slug}: preview missing")
@@ -84,8 +84,9 @@ for directory in rice_dirs:
         metadata = probe(preview)
         stream = next(iter(metadata.get("streams", [])), {})
         duration = float(metadata.get("format", {}).get("duration", 0))
-        if stream.get("codec_name") != "h264" or stream.get("width") != 1280 or stream.get("height") != 720 or abs(duration - 5) > 0.05:
-            errors.append(f"{slug}: preview media contract failed: {metadata}")
+        frame_count = int(stream.get("nb_read_frames", 0) or 0)
+        if stream.get("codec_name") != "gif" or stream.get("width") != 640 or stream.get("height") != 360 or abs(duration - 5) > 0.11 or frame_count < 45:
+            errors.append(f"{slug}: animated GIF preview contract failed: {metadata}")
     if not poster.is_file():
         errors.append(f"{slug}: poster missing")
     rows.append({"slug": slug, "keys": keys.get("profile"), "bar": bar.get("barShellStyle"), "preview": preview.name})
