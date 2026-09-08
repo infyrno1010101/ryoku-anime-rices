@@ -1,0 +1,152 @@
+[
+  {
+    "slug": "jujutsu-kaisen-season-3-culling-game-overdrive",
+    "name": "Jujutsu Kaisen — Season 3: Culling Game Overdrive",
+    "blurb": "A violent Culling Game colony: ultraviolet seals, cyan cursed-energy particles, orbital spectrum pressure and crystalline keystrokes.",
+    "direction": "Culling Game ensemble with chromatic glitches, moving barrier bands, and cursed-energy pressure.",
+    "key_profile": "crystal-purple",
+    "bar": "islands",
+    "position": "top",
+    "lock": "star-rail"
+  },
+  {
+    "slug": "frieren-season-2-aureole-reverie",
+    "name": "Frieren Season 2 — Aureole Reverie",
+    "blurb": "An ancient blue-gold night of comets, mana traces and soft traveling light, with a floating ribbon spectrum and quiet creamy keys.",
+    "direction": "A serene ultra-wide journey pan with drifting light and a quiet blue-gold atmosphere.",
+    "key_profile": "creamy",
+    "bar": "notch",
+    "position": "bottom",
+    "lock": "forest"
+  },
+  {
+    "slug": "witch-hat-atelier-silver-ink-coven",
+    "name": "Witch Hat Atelier — Silver Ink Coven",
+    "blurb": "Bone-white ink circles turn over amethyst parchment, with drafting-line motion, a framed visualizer and ceremonial Topre keys.",
+    "direction": "Portrait parchment composition animated with rotating drafting circles and living silver ink.",
+    "key_profile": "topre",
+    "bar": "fit",
+    "position": "top",
+    "lock": "clockwork/orbital"
+  },
+  {
+    "slug": "bleach-tybw-blood-war-zenith",
+    "name": "Bleach: Thousand-Year Blood War — Blood War Zenith",
+    "blurb": "A black-white-red battlefield cut by crossing blades, hard full-width instruments, split spectrum motion and sharp blue-switch strikes.",
+    "direction": "Stark monochrome Soul Reaper poster cut by moving red blades and inversion flashes.",
+    "key_profile": "cherry-mx-blue",
+    "bar": "full",
+    "position": "top",
+    "lock": "sword"
+  },
+  {
+    "slug": "mushoku-tensei-mana-labyrinth",
+    "name": "Mushoku Tensei — Mana Labyrinth",
+    "blurb": "A deep cyan-jade mana labyrinth with rotating spell geometry, luminous islands, an orbital visualizer and soft magic-key resonance.",
+    "direction": "Cinematic interior parallax with expanding cyan-jade mana rings.",
+    "key_profile": "creamy",
+    "bar": "islands",
+    "position": "bottom",
+    "lock": "forest"
+  },
+  {
+    "slug": "goodbye-lara-abyssal-farewell",
+    "name": "Goodbye, Lara — Abyssal Farewell",
+    "blurb": "Blue-pink abyssal waves, rising memory bubbles and a breathing ribbon spectrum create a beautiful melancholy ocean interface.",
+    "direction": "Lake and mermaid imagery animated through water-refraction strips and rising bubbles.",
+    "key_profile": "creamy",
+    "bar": "notch",
+    "position": "top",
+    "lock": "pixel-rainyroom"
+  },
+  {
+    "slug": "polar-opposites-season-2-chromatic-polarity",
+    "name": "You and I Are Polar Opposites — Season 2: Chromatic Polarity",
+    "blurb": "Hot pink and electric cyan opposites collide in animated polarity waves, playful glass islands and bright tactile Panda key sounds.",
+    "direction": "A playful manga-cover split screen moving in opposing pink and cyan directions.",
+    "key_profile": "holy-panda",
+    "bar": "islands",
+    "position": "top",
+    "lock": "r1999-1"
+  },
+  {
+    "slug": "ghost-in-the-shell-cyberbrain-rain",
+    "name": "Ghost in the Shell — Cyberbrain Rain",
+    "blurb": "Emerald cyberbrain grids and cobalt data rain drive a hard tactical bar, neural scan visualizer and clean Tealios key response.",
+    "direction": "Cyber portrait with scanlines, block glitches, and falling neural data.",
+    "key_profile": "tealios",
+    "bar": "full",
+    "position": "bottom",
+    "lock": "pixel-cyberpunk"
+  },
+  {
+    "slug": "daemons-shadow-realm-gate-of-night",
+    "name": "Daemons of the Shadow Realm — Gate of Night",
+    "blurb": "A new twin-gate composition—violet night against solar gold, bound by a moving central seam and mirrored daemon telemetry.",
+    "direction": "The official key visual becomes two opposed moving gates divided by a gold seam.",
+    "key_profile": "topre",
+    "bar": "fit",
+    "position": "top",
+    "lock": "sword"
+  },
+  {
+    "slug": "jojo-steel-ball-run-golden-spin",
+    "name": "JoJo’s Bizarre Adventure: Steel Ball Run — Golden Spin",
+    "blurb": "Golden-ratio spirals rotate through royal violet desert night, with racing islands, an infinite-spin visualizer and hard switch cadence.",
+    "direction": "Johnny, Gyro, and Lucy framed by an animated golden-ratio spiral.",
+    "key_profile": "cherry-mx-blue",
+    "bar": "islands",
+    "position": "top",
+    "lock": "sword"
+  },
+  {
+    "slug": "hells-paradise-season-2-tao-inferno",
+    "name": "Hell’s Paradise — Season 2: Tao Inferno",
+    "blurb": "A completely new Tao inferno: rotating scarlet lotus fire, toxic jade life-force, aggressive full bar and brutal Panda strikes.",
+    "direction": "Shinsenkyo artwork transformed into a living red-and-jade floral kaleidoscope.",
+    "key_profile": "holy-panda",
+    "bar": "full",
+    "position": "bottom",
+    "lock": "dog-samurai"
+  },
+  {
+    "slug": "dorohedoro-season-2-hole-smoke-ritual",
+    "name": "Dorohedoro — Season 2: Hole Smoke Ritual",
+    "blurb": "Acid-green and purple smoke bands crawl through industrial black, with grimy fit-bar instrumentation and heavy brown-switch clacks.",
+    "direction": "A gritty character scene distorted by drifting smoke and chromatic corruption.",
+    "key_profile": "cherry-mx-brown",
+    "bar": "fit",
+    "position": "top",
+    "lock": "pixel-dusk-city"
+  },
+  {
+    "slug": "one-piece-elbaph-giants-dawn",
+    "name": "One Piece — Elbaph Arc: Giants’ Dawn",
+    "blurb": "A colossal world-tree reaches into a moving amber dawn, with ocean-blue runes, heroic notch bar and festival-bright motion.",
+    "direction": "Elbaph battle art with a rising world-tree camera and rotating sky runes.",
+    "key_profile": "holy-panda",
+    "bar": "notch",
+    "position": "top",
+    "lock": "forest"
+  },
+  {
+    "slug": "nippon-sangoku-ashen-shogunate",
+    "name": "Nippon Sangoku — Ashen Shogunate",
+    "blurb": "Ash-black maps, bone banners and a red imperial seal form a severe command rice with framed telemetry and disciplined Topre keys.",
+    "direction": "Manga-cover imagery treated as a severe moving ink map with a pulsing red seal.",
+    "key_profile": "topre",
+    "bar": "full",
+    "position": "bottom",
+    "lock": "sword"
+  },
+  {
+    "slug": "black-torch-mononoke-ember",
+    "name": "Black Torch — Mononoke Ember",
+    "blurb": "A black-flame shinobi rice with orange ember trails, violet spirit rings, fast island motion and precise Tealios attack clicks.",
+    "direction": "Character key art surrounded by rising embers, spirit particles, and black-flame strokes.",
+    "key_profile": "tealios",
+    "bar": "islands",
+    "position": "top",
+    "lock": "dog-samurai"
+  }
+]

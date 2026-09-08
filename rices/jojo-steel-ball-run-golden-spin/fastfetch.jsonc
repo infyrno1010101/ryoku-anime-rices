@@ -1,0 +1,121 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "kitty-direct",
+    "source": "~/.config/fastfetch/ryoku-logo.png",
+    "width": 30,
+    "height": 15,
+    "padding": {
+      "left": 2,
+      "right": 4,
+      "top": 3
+    }
+  },
+  "display": {
+    "color": {
+      "keys": "38;2;255;200;42"
+    },
+    "key": {
+      "width": 9
+    },
+    "percent": {
+      "color": {
+        "green": "38;2;127;191;106",
+        "red": "38;2;226;52;42",
+        "yellow": "38;2;217;164;65"
+      },
+      "type": 9
+    },
+    "separator": "  "
+  },
+  "modules": [
+    "break",
+    {
+      "type": "title",
+      "format": "\u001b[1;38;2;243;237;225m{user-name}\u001b[0m\u001b[38;2;143;135;112m @ \u001b[0m\u001b[1;38;2;243;237;225m{host-name}\u001b[0m"
+    },
+    {
+      "format": "\u001b[38;2;255;200;42m■\u001b[0m \u001b[38;2;143;135;112mSTEEL BALL RUN · GOLDEN SPIN · 黄金長方形\u001b[0m",
+      "type": "custom"
+    },
+    "break",
+    {
+      "format": "\u001b[38;2;255;200;42m──\u001b[0m \u001b[1;38;2;243;237;225mSTAGE\u001b[0m \u001b[38;2;58;46;36m───────────────────────────\u001b[0m",
+      "type": "custom"
+    },
+    {
+      "key": "CPU",
+      "type": "cpu"
+    },
+    {
+      "detectionMethod": "pci",
+      "key": "GPU",
+      "type": "gpu"
+    },
+    {
+      "key": "MEMORY",
+      "type": "memory"
+    },
+    {
+      "key": "DISK",
+      "type": "disk"
+    },
+    "break",
+    {
+      "format": "\u001b[38;2;255;200;42m──\u001b[0m \u001b[1;38;2;243;237;225mROTATION\u001b[0m \u001b[38;2;58;46;36m────────────────────────\u001b[0m",
+      "type": "custom"
+    },
+    {
+      "key": "OS",
+      "text": "echo \"Ryoku $(ryoku version --pretty 2\u003e/dev/null || echo dev)\"",
+      "type": "command"
+    },
+    {
+      "key": "BRANCH",
+      "text": "ryoku version --branch 2\u003e/dev/null || echo main",
+      "type": "command"
+    },
+    {
+      "key": "KERNEL",
+      "type": "kernel"
+    },
+    {
+      "key": "WM",
+      "text": "echo \"${XDG_CURRENT_DESKTOP:-Hyprland}\"",
+      "type": "command"
+    },
+    {
+      "key": "SHELL",
+      "type": "shell"
+    },
+    {
+      "key": "PKGS",
+      "type": "packages"
+    },
+    "break",
+    {
+      "format": "\u001b[38;2;255;200;42m──\u001b[0m \u001b[1;38;2;243;237;225mRACE LINE\u001b[0m \u001b[38;2;58;46;36m───────────────────────\u001b[0m",
+      "type": "custom"
+    },
+    {
+      "key": "UPTIME",
+      "type": "uptime"
+    },
+    {
+      "key": "AGE",
+      "text": "echo $(( ($(date +%s) - $(stat -c %W /)) / 86400 )) days",
+      "type": "command"
+    },
+    {
+      "key": "TERM",
+      "type": "terminal"
+    },
+    "break",
+    {
+      "type": "colors",
+      "symbol": "circle",
+      "paddingLeft": 2
+    },
+    "break"
+  ]
+}
