@@ -1,0 +1,8 @@
+[SddmGreeterTheme]
+Name=Edgerunners Moon Promise
+Description=Animated Lucy lunar terminal lockscreen for Cyberpunk: Edgerunners
+Author=infocrash
+Type=sddm-theme
+MainScript=Main.qml
+ConfigFile=theme.conf
+QtVersion=6

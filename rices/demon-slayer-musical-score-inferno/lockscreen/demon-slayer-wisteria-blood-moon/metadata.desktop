@@ -1,0 +1,8 @@
+[SddmGreeterTheme]
+Name=Demon Slayer Wisteria Blood Moon
+Description=Animated Tanjiro and Nezuko wisteria sanctuary lockscreen
+Author=infocrash
+Type=sddm-theme
+MainScript=Main.qml
+ConfigFile=theme.conf
+QtVersion=6

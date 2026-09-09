@@ -19,6 +19,8 @@ SLUGS = [
     "one-piece-elbaph-giants-dawn",
     "nippon-sangoku-ashen-shogunate",
     "black-torch-mononoke-ember",
+    "cyberpunk-edgerunners-moonfall-overdrive",
+    "demon-slayer-musical-score-inferno",
 ]
 DIRECTIONS = {
     "jujutsu-kaisen-season-3-culling-game-overdrive": "Culling Game ensemble with chromatic glitches, moving barrier bands, and cursed-energy pressure.",
@@ -36,6 +38,8 @@ DIRECTIONS = {
     "one-piece-elbaph-giants-dawn": "Elbaph battle art with a rising world-tree camera and rotating sky runes.",
     "nippon-sangoku-ashen-shogunate": "Manga-cover imagery treated as a severe moving ink map with a pulsing red seal.",
     "black-torch-mononoke-ember": "Character key art surrounded by rising embers, spirit particles, and black-flame strokes.",
+    "cyberpunk-edgerunners-moonfall-overdrive": "David's cyberskeleton assault becomes a Sandevistan storm of gravity rings, cyberpsychosis fractures, and Night City telemetry; includes a separate Lucy lunar lockscreen.",
+    "demon-slayer-musical-score-inferno": "Tengen versus Gyutaro erupts through Musical Score rings, Nichirin crescents, blood sickles, and lantern ash; includes a separate sibling/wisteria lockscreen.",
 }
 
 entries = []
@@ -56,15 +60,15 @@ for slug in SLUGS:
 
 header = """# Ryoku Anime Rices
 
-Fifteen highly animated, full-desktop native rices for the Ryoku Arch Linux/Hyprland environment. Each rice packages its animated wallpaper, fixed palette, Fastfetch identity, lockscreen selection, animated bar and dock layout, widgets, Hyprland effects, visualizer, cursor treatment, and mechanical key-sound profile.
+Seventeen highly animated, full-desktop native rices for the Ryoku Arch Linux/Hyprland environment. Each rice packages its animated wallpaper, fixed palette, Fastfetch identity, lockscreen selection, animated bar and dock layout, widgets, Hyprland effects, visualizer, cursor treatment, and mechanical key-sound profile.
 
 > **Fan project:** This repository is unofficial and is not affiliated with, endorsed by, or sponsored by the series creators, publishers, animation studios, or rights holders. Series names and source imagery remain the property of their respective owners. See [Credits and media notice](CREDITS.md).
 
 ## Design promise
 
-These are not one template recolored fifteen times. Every rice has a distinct composition and motion language: glitch, serene pan, parchment drafting, blade flash, mana rings, water refraction, split polarity, cyber scan, twin gates, golden spiral, floral kaleidoscope, smoke displacement, world-tree rise, ink-map movement, or black flame.
+These are not one template recolored seventeen times. Every rice has a distinct composition and motion language: glitch, serene pan, parchment drafting, blade flash, mana rings, water refraction, split polarity, cyber scan, twin gates, golden spiral, floral kaleidoscope, smoke displacement, world-tree rise, ink-map movement, black flame, Sandevistan chrome overload, or Musical Score inferno.
 
-All fifteen intentionally:
+All seventeen intentionally:
 
 - use a 10-second, 1920×1080, 24 FPS H.264 animated wallpaper;
 - include an animated/frosted bar treatment and an active visualizer;
@@ -72,6 +76,8 @@ All fifteen intentionally:
 - enable a mechanical key-sound profile;
 - disable the calendar desktop widget;
 - work with `ryoku-hub rice ...` and appear automatically in Ryoku Kasane.
+
+Edgerunners and Demon Slayer additionally bundle complete custom animated Qylock themes under their `lockscreen/` directories. The installer places these into the user's Qylock theme library automatically.
 
 ## Preview gallery
 
@@ -96,7 +102,7 @@ cd ryoku-anime-rices
 ./scripts/install.sh all
 ```
 
-The installer performs user-local file copies only. It does not use `sudo`, execute rice hooks, or modify `/usr`.
+The installer performs user-local file copies only. It does not use `sudo`, execute rice hooks, or modify `/usr`. When a rice bundles a custom lockscreen, it also copies that theme into `~/.local/share/qylock/themes/` before the rice is applied.
 
 ### Install one rice
 

@@ -1,0 +1,10 @@
+Edgerunners Moon Promise lockscreen
+
+Design, QML interface, animation treatment, and integration: infocrash / Ryoku Anime Rices.
+
+Background source: "Lucy in Space - Cyberpunk: Edgerunners" (7680x4320), discovered by Tadokiari on Wallpaper Abyss.
+Source page: https://wall.alphacoders.com/big.php?i=1296280
+Direct source used: https://images5.alphacoders.com/129/1296280.jpg
+The source host labels the image free for private, personal use; contact the artist/rightsholder for other usage.
+
+Cyberpunk: Edgerunners and its characters are property of their respective creators and rights holders. This is an unofficial, noncommercial fan theme.

@@ -238,5 +238,37 @@
     "format": {
       "duration": "5.000000"
     }
+  },
+  "cyberpunk-edgerunners-moonfall-overdrive": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "gif",
+        "width": 640,
+        "height": 360,
+        "r_frame_rate": "10/1",
+        "nb_read_frames": "50"
+      }
+    ],
+    "format": {
+      "duration": "5.000000"
+    }
+  },
+  "demon-slayer-musical-score-inferno": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "gif",
+        "width": 640,
+        "height": 360,
+        "r_frame_rate": "10/1",
+        "nb_read_frames": "50"
+      }
+    ],
+    "format": {
+      "duration": "5.000000"
+    }
   }
 }

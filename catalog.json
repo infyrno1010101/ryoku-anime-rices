@@ -148,5 +148,25 @@
     "bar": "islands",
     "position": "top",
     "lock": "dog-samurai"
+  },
+  {
+    "slug": "cyberpunk-edgerunners-moonfall-overdrive",
+    "name": "Cyberpunk: Edgerunners — Moonfall Overdrive",
+    "blurb": "David’s final chrome-overload run to Arasaka Tower: cyberskeleton gravity rings, Sandevistan afterimages, cyberpsychosis fractures, Night City telemetry, and Lucy’s separate Moon Promise lockscreen.",
+    "direction": "David's cyberskeleton assault becomes a Sandevistan storm of gravity rings, cyberpsychosis fractures, and Night City telemetry; includes a separate Lucy lunar lockscreen.",
+    "key_profile": "cherry-mx-blue",
+    "bar": "full",
+    "position": "bottom",
+    "lock": "edgerunners-moon-promise"
+  },
+  {
+    "slug": "demon-slayer-musical-score-inferno",
+    "name": "Demon Slayer — Musical Score Inferno",
+    "blurb": "The Entertainment District climax becomes a maximal Musical Score interface: Tengen–Gyutaro combat, explosive Nichirin arcs, poison sickles, beat rings, lantern ash, and a separate Tanjiro–Nezuko Wisteria Blood Moon lockscreen.",
+    "direction": "Tengen versus Gyutaro erupts through Musical Score rings, Nichirin crescents, blood sickles, and lantern ash; includes a separate sibling/wisteria lockscreen.",
+    "key_profile": "holy-panda",
+    "bar": "fit",
+    "position": "top",
+    "lock": "demon-slayer-wisteria-blood-moon"
   }
 ]

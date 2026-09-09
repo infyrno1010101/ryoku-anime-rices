@@ -1,14 +1,14 @@
 # Ryoku Anime Rices
 
-Fifteen highly animated, full-desktop native rices for the Ryoku Arch Linux/Hyprland environment. Each rice packages its animated wallpaper, fixed palette, Fastfetch identity, lockscreen selection, animated bar and dock layout, widgets, Hyprland effects, visualizer, cursor treatment, and mechanical key-sound profile.
+Seventeen highly animated, full-desktop native rices for the Ryoku Arch Linux/Hyprland environment. Each rice packages its animated wallpaper, fixed palette, Fastfetch identity, lockscreen selection, animated bar and dock layout, widgets, Hyprland effects, visualizer, cursor treatment, and mechanical key-sound profile.
 
 > **Fan project:** This repository is unofficial and is not affiliated with, endorsed by, or sponsored by the series creators, publishers, animation studios, or rights holders. Series names and source imagery remain the property of their respective owners. See [Credits and media notice](CREDITS.md).
 
 ## Design promise
 
-These are not one template recolored fifteen times. Every rice has a distinct composition and motion language: glitch, serene pan, parchment drafting, blade flash, mana rings, water refraction, split polarity, cyber scan, twin gates, golden spiral, floral kaleidoscope, smoke displacement, world-tree rise, ink-map movement, or black flame.
+These are not one template recolored seventeen times. Every rice has a distinct composition and motion language: glitch, serene pan, parchment drafting, blade flash, mana rings, water refraction, split polarity, cyber scan, twin gates, golden spiral, floral kaleidoscope, smoke displacement, world-tree rise, ink-map movement, black flame, Sandevistan chrome overload, or Musical Score inferno.
 
-All fifteen intentionally:
+All seventeen intentionally:
 
 - use a 10-second, 1920×1080, 24 FPS H.264 animated wallpaper;
 - include an animated/frosted bar treatment and an active visualizer;
@@ -16,6 +16,8 @@ All fifteen intentionally:
 - enable a mechanical key-sound profile;
 - disable the calendar desktop widget;
 - work with `ryoku-hub rice ...` and appear automatically in Ryoku Kasane.
+
+Edgerunners and Demon Slayer additionally bundle complete custom animated Qylock themes under their `lockscreen/` directories. The installer places these into the user's Qylock theme library automatically.
 
 ## Preview gallery
 
@@ -38,6 +40,8 @@ Each image below is a five-second animated GIF preview that plays directly on th
 | **One Piece — Elbaph Arc: Giants’ Dawn**<br><code>one-piece-elbaph-giants-dawn</code> | ![Animated preview for One Piece — Elbaph Arc: Giants’ Dawn](previews/one-piece-elbaph-giants-dawn.gif) | Elbaph battle art with a rising world-tree camera and rotating sky runes. **Bar:** top notch. **Keys:** holy-panda. |
 | **Nippon Sangoku — Ashen Shogunate**<br><code>nippon-sangoku-ashen-shogunate</code> | ![Animated preview for Nippon Sangoku — Ashen Shogunate](previews/nippon-sangoku-ashen-shogunate.gif) | Manga-cover imagery treated as a severe moving ink map with a pulsing red seal. **Bar:** bottom full. **Keys:** topre. |
 | **Black Torch — Mononoke Ember**<br><code>black-torch-mononoke-ember</code> | ![Animated preview for Black Torch — Mononoke Ember](previews/black-torch-mononoke-ember.gif) | Character key art surrounded by rising embers, spirit particles, and black-flame strokes. **Bar:** top islands. **Keys:** tealios. |
+| **Cyberpunk: Edgerunners — Moonfall Overdrive**<br><code>cyberpunk-edgerunners-moonfall-overdrive</code> | ![Animated preview for Cyberpunk: Edgerunners — Moonfall Overdrive](previews/cyberpunk-edgerunners-moonfall-overdrive.gif) | David's cyberskeleton assault becomes a Sandevistan storm of gravity rings, cyberpsychosis fractures, and Night City telemetry; includes a separate Lucy lunar lockscreen. **Bar:** bottom full. **Keys:** cherry-mx-blue. |
+| **Demon Slayer — Musical Score Inferno**<br><code>demon-slayer-musical-score-inferno</code> | ![Animated preview for Demon Slayer — Musical Score Inferno](previews/demon-slayer-musical-score-inferno.gif) | Tengen versus Gyutaro erupts through Musical Score rings, Nichirin crescents, blood sickles, and lantern ash; includes a separate sibling/wisteria lockscreen. **Bar:** top fit. **Keys:** holy-panda. |
 
 ## Install
 
@@ -49,7 +53,7 @@ cd ryoku-anime-rices
 ./scripts/install.sh all
 ```
 
-The installer performs user-local file copies only. It does not use `sudo`, execute rice hooks, or modify `/usr`.
+The installer performs user-local file copies only. It does not use `sudo`, execute rice hooks, or modify `/usr`. When a rice bundles a custom lockscreen, it also copies that theme into `~/.local/share/qylock/themes/` before the rice is applied.
 
 ### Install one rice
 
@@ -214,6 +218,22 @@ A black-flame shinobi rice with orange ember trails, violet spirit rings, fast i
 
 ```bash
 ryoku-hub rice apply black-torch-mononoke-ember
+```
+
+### Cyberpunk: Edgerunners — Moonfall Overdrive
+
+David’s final chrome-overload run to Arasaka Tower: cyberskeleton gravity rings, Sandevistan afterimages, cyberpsychosis fractures, Night City telemetry, and Lucy’s separate Moon Promise lockscreen.
+
+```bash
+ryoku-hub rice apply cyberpunk-edgerunners-moonfall-overdrive
+```
+
+### Demon Slayer — Musical Score Inferno
+
+The Entertainment District climax becomes a maximal Musical Score interface: Tengen–Gyutaro combat, explosive Nichirin arcs, poison sickles, beat rings, lantern ash, and a separate Tanjiro–Nezuko Wisteria Blood Moon lockscreen.
+
+```bash
+ryoku-hub rice apply demon-slayer-musical-score-inferno
 ```
 
 ## Safety and recovery
