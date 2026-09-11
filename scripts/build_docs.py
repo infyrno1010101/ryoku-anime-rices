@@ -24,6 +24,7 @@ SLUGS = [
     "fight-club-project-mayhem",
     "lock-stock-debt-domino",
     "snatch-fourth-round-diamond",
+    "scott-pilgrim-twin-dragon-threshold",
 ]
 DIRECTIONS = {
     "jujutsu-kaisen-season-3-culling-game-overdrive": "Culling Game ensemble with chromatic glitches, moving barrier bands, and cursed-energy pressure.",
@@ -46,6 +47,7 @@ DIRECTIONS = {
     "fight-club-project-mayhem": "Tyler's direct-camera identity manifesto uses FightThis kinetic typography and impact shake; includes a separate projection-booth cigarette-burn lockscreen.",
     "lock-stock-debt-domino": "A widescreen card-and-cash caper drives rotating hands, a £500,000 debt counter, and heist-route motion; includes a separate antique-shotgun evidence lockscreen.",
     "snatch-fourth-round-diamond": "Mickey cycles through underwater knockdown, suspended slow motion, and recovery while diamond and dog-track telemetry orbit; includes a separate 84-carat vault lockscreen.",
+    "scott-pilgrim-twin-dragon-threshold": "Sex Bob-Omb’s sound yeti collides with the Katayanagi twins’ dragons through comic-panel cuts, combo telemetry, and K.O./1-UP bursts; includes a separate final-door Subspace Continue lockscreen.",
 }
 
 entries = []
@@ -66,15 +68,15 @@ for slug in SLUGS:
 
 header = """# Ryoku Anime Rices
 
-Twenty highly animated, full-desktop native rices for the Ryoku Arch Linux/Hyprland environment. Each rice packages its animated wallpaper, fixed palette, Fastfetch identity, lockscreen selection, animated bar and dock layout, widgets, Hyprland effects, visualizer, cursor treatment, and mechanical key-sound profile.
+Twenty-one highly animated, full-desktop native rices for the Ryoku Arch Linux/Hyprland environment. Each rice packages its animated wallpaper, fixed palette, Fastfetch identity, lockscreen selection, animated bar and dock layout, widgets, Hyprland effects, visualizer, cursor treatment, and mechanical key-sound profile.
 
 > **Fan project:** This repository is unofficial and is not affiliated with, endorsed by, or sponsored by the series creators, publishers, animation studios, or rights holders. Series names and source imagery remain the property of their respective owners. See [Credits and media notice](CREDITS.md).
 
 ## Design promise
 
-These are not one template recolored twenty times. Every rice has a distinct composition and motion language: glitch, serene pan, parchment drafting, blade flash, mana rings, water refraction, split polarity, cyber scan, twin gates, golden spiral, floral kaleidoscope, smoke displacement, world-tree rise, ink-map movement, black flame, Sandevistan chrome overload, Musical Score inferno, kinetic film typography, card-debt dominoes, or underwater knockout cuts.
+These are not one template recolored twenty-one times. Every rice has a distinct composition and motion language: glitch, serene pan, parchment drafting, blade flash, mana rings, water refraction, split polarity, cyber scan, twin gates, golden spiral, floral kaleidoscope, smoke displacement, world-tree rise, ink-map movement, black flame, Sandevistan chrome overload, Musical Score inferno, kinetic film typography, card-debt dominoes, underwater knockout cuts, or comic-panel bass combat.
 
-All twenty intentionally:
+All twenty-one intentionally:
 
 - use a 10-second, 1920×1080, 24 FPS H.264 animated wallpaper;
 - include an animated/frosted bar treatment and an active visualizer;
@@ -83,7 +85,7 @@ All twenty intentionally:
 - disable the calendar desktop widget;
 - work with `ryoku-hub rice ...` and appear automatically in Ryoku Kasane.
 
-Edgerunners, Demon Slayer, Fight Club, Lock Stock, and Snatch additionally bundle complete custom animated Qylock themes under their `lockscreen/` directories. The installer places these into the user's Qylock theme library automatically.
+Edgerunners, Demon Slayer, Fight Club, Lock Stock, Snatch, and Scott Pilgrim additionally bundle complete custom animated Qylock themes under their `lockscreen/` directories. The installer places these into the user's Qylock theme library automatically.
 
 ## Preview gallery
 

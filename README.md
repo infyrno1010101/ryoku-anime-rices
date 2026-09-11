@@ -1,14 +1,14 @@
 # Ryoku Anime Rices
 
-Twenty highly animated, full-desktop native rices for the Ryoku Arch Linux/Hyprland environment. Each rice packages its animated wallpaper, fixed palette, Fastfetch identity, lockscreen selection, animated bar and dock layout, widgets, Hyprland effects, visualizer, cursor treatment, and mechanical key-sound profile.
+Twenty-one highly animated, full-desktop native rices for the Ryoku Arch Linux/Hyprland environment. Each rice packages its animated wallpaper, fixed palette, Fastfetch identity, lockscreen selection, animated bar and dock layout, widgets, Hyprland effects, visualizer, cursor treatment, and mechanical key-sound profile.
 
 > **Fan project:** This repository is unofficial and is not affiliated with, endorsed by, or sponsored by the series creators, publishers, animation studios, or rights holders. Series names and source imagery remain the property of their respective owners. See [Credits and media notice](CREDITS.md).
 
 ## Design promise
 
-These are not one template recolored twenty times. Every rice has a distinct composition and motion language: glitch, serene pan, parchment drafting, blade flash, mana rings, water refraction, split polarity, cyber scan, twin gates, golden spiral, floral kaleidoscope, smoke displacement, world-tree rise, ink-map movement, black flame, Sandevistan chrome overload, Musical Score inferno, kinetic film typography, card-debt dominoes, or underwater knockout cuts.
+These are not one template recolored twenty-one times. Every rice has a distinct composition and motion language: glitch, serene pan, parchment drafting, blade flash, mana rings, water refraction, split polarity, cyber scan, twin gates, golden spiral, floral kaleidoscope, smoke displacement, world-tree rise, ink-map movement, black flame, Sandevistan chrome overload, Musical Score inferno, kinetic film typography, card-debt dominoes, underwater knockout cuts, or comic-panel bass combat.
 
-All twenty intentionally:
+All twenty-one intentionally:
 
 - use a 10-second, 1920×1080, 24 FPS H.264 animated wallpaper;
 - include an animated/frosted bar treatment and an active visualizer;
@@ -17,7 +17,7 @@ All twenty intentionally:
 - disable the calendar desktop widget;
 - work with `ryoku-hub rice ...` and appear automatically in Ryoku Kasane.
 
-Edgerunners, Demon Slayer, Fight Club, Lock Stock, and Snatch additionally bundle complete custom animated Qylock themes under their `lockscreen/` directories. The installer places these into the user's Qylock theme library automatically.
+Edgerunners, Demon Slayer, Fight Club, Lock Stock, Snatch, and Scott Pilgrim additionally bundle complete custom animated Qylock themes under their `lockscreen/` directories. The installer places these into the user's Qylock theme library automatically.
 
 ## Preview gallery
 
@@ -45,6 +45,7 @@ Each image below is a five-second animated GIF preview that plays directly on th
 | **Fight Club — Project Mayhem**<br><code>fight-club-project-mayhem</code> | ![Animated preview for Fight Club — Project Mayhem](previews/fight-club-project-mayhem.gif) | Tyler's direct-camera identity manifesto uses FightThis kinetic typography and impact shake; includes a separate projection-booth cigarette-burn lockscreen. **Bar:** top full. **Keys:** cherry-mx-brown. |
 | **Lock, Stock and Two Smoking Barrels — Debt Domino**<br><code>lock-stock-debt-domino</code> | ![Animated preview for Lock, Stock and Two Smoking Barrels — Debt Domino](previews/lock-stock-debt-domino.gif) | A widescreen card-and-cash caper drives rotating hands, a £500,000 debt counter, and heist-route motion; includes a separate antique-shotgun evidence lockscreen. **Bar:** bottom fit. **Keys:** topre. |
 | **Snatch — Fourth Round Diamond**<br><code>snatch-fourth-round-diamond</code> | ![Animated preview for Snatch — Fourth Round Diamond](previews/snatch-fourth-round-diamond.gif) | Mickey cycles through underwater knockdown, suspended slow motion, and recovery while diamond and dog-track telemetry orbit; includes a separate 84-carat vault lockscreen. **Bar:** top islands. **Keys:** holy-panda. |
+| **Scott Pilgrim vs. the World — Twin Dragon Threshold**<br><code>scott-pilgrim-twin-dragon-threshold</code> | ![Animated preview for Scott Pilgrim vs. the World — Twin Dragon Threshold](previews/scott-pilgrim-twin-dragon-threshold.gif) | Sex Bob-Omb’s sound yeti collides with the Katayanagi twins’ dragons through comic-panel cuts, combo telemetry, and K.O./1-UP bursts; includes a separate final-door Subspace Continue lockscreen. **Bar:** top notch. **Keys:** crystal-purple. |
 
 ## Install
 
@@ -261,6 +262,14 @@ Mickey’s fourth-round refusal to stay down drives underwater slow motion, knoc
 
 ```bash
 ryoku-hub rice apply snatch-fourth-round-diamond
+```
+
+### Scott Pilgrim vs. the World — Twin Dragon Threshold
+
+Sex Bob-Omb’s sound yeti collides with the Katayanagi twins’ dragons through six comic-panel film cuts, bass shockwaves, combo telemetry, K.O. bursts, and a separate final-door Subspace Continue lockscreen.
+
+```bash
+ryoku-hub rice apply scott-pilgrim-twin-dragon-threshold
 ```
 
 ## Safety and recovery

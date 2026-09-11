@@ -198,5 +198,15 @@
     "bar": "islands",
     "position": "top",
     "lock": "snatch-diamond-vault"
+  },
+  {
+    "slug": "scott-pilgrim-twin-dragon-threshold",
+    "name": "Scott Pilgrim vs. the World — Twin Dragon Threshold",
+    "blurb": "Sex Bob-Omb’s sound yeti collides with the Katayanagi twins’ dragons through six comic-panel film cuts, bass shockwaves, combo telemetry, K.O. bursts, and a separate final-door Subspace Continue lockscreen.",
+    "direction": "Sex Bob-Omb’s sound yeti collides with the Katayanagi twins’ dragons through comic-panel cuts, combo telemetry, and K.O./1-UP bursts; includes a separate final-door Subspace Continue lockscreen.",
+    "key_profile": "crystal-purple",
+    "bar": "notch",
+    "position": "top",
+    "lock": "scott-pilgrim-subspace-continue"
   }
 ]

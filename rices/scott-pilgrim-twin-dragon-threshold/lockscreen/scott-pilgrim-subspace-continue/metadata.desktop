@@ -1,0 +1,8 @@
+[SddmGreeterTheme]
+Name=Scott Pilgrim Subspace Continue
+Description=Animated final-door, 1-UP, and subspace portal lockscreen
+Author=infocrash
+Type=sddm-theme
+MainScript=Main.qml
+ConfigFile=theme.conf
+QtVersion=6
