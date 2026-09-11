@@ -21,6 +21,9 @@ SLUGS = [
     "black-torch-mononoke-ember",
     "cyberpunk-edgerunners-moonfall-overdrive",
     "demon-slayer-musical-score-inferno",
+    "fight-club-project-mayhem",
+    "lock-stock-debt-domino",
+    "snatch-fourth-round-diamond",
 ]
 DIRECTIONS = {
     "jujutsu-kaisen-season-3-culling-game-overdrive": "Culling Game ensemble with chromatic glitches, moving barrier bands, and cursed-energy pressure.",
@@ -40,6 +43,9 @@ DIRECTIONS = {
     "black-torch-mononoke-ember": "Character key art surrounded by rising embers, spirit particles, and black-flame strokes.",
     "cyberpunk-edgerunners-moonfall-overdrive": "David's cyberskeleton assault becomes a Sandevistan storm of gravity rings, cyberpsychosis fractures, and Night City telemetry; includes a separate Lucy lunar lockscreen.",
     "demon-slayer-musical-score-inferno": "Tengen versus Gyutaro erupts through Musical Score rings, Nichirin crescents, blood sickles, and lantern ash; includes a separate sibling/wisteria lockscreen.",
+    "fight-club-project-mayhem": "Tyler's direct-camera identity manifesto uses FightThis kinetic typography and impact shake; includes a separate projection-booth cigarette-burn lockscreen.",
+    "lock-stock-debt-domino": "A widescreen card-and-cash caper drives rotating hands, a £500,000 debt counter, and heist-route motion; includes a separate antique-shotgun evidence lockscreen.",
+    "snatch-fourth-round-diamond": "Mickey cycles through underwater knockdown, suspended slow motion, and recovery while diamond and dog-track telemetry orbit; includes a separate 84-carat vault lockscreen.",
 }
 
 entries = []
@@ -60,15 +66,15 @@ for slug in SLUGS:
 
 header = """# Ryoku Anime Rices
 
-Seventeen highly animated, full-desktop native rices for the Ryoku Arch Linux/Hyprland environment. Each rice packages its animated wallpaper, fixed palette, Fastfetch identity, lockscreen selection, animated bar and dock layout, widgets, Hyprland effects, visualizer, cursor treatment, and mechanical key-sound profile.
+Twenty highly animated, full-desktop native rices for the Ryoku Arch Linux/Hyprland environment. Each rice packages its animated wallpaper, fixed palette, Fastfetch identity, lockscreen selection, animated bar and dock layout, widgets, Hyprland effects, visualizer, cursor treatment, and mechanical key-sound profile.
 
 > **Fan project:** This repository is unofficial and is not affiliated with, endorsed by, or sponsored by the series creators, publishers, animation studios, or rights holders. Series names and source imagery remain the property of their respective owners. See [Credits and media notice](CREDITS.md).
 
 ## Design promise
 
-These are not one template recolored seventeen times. Every rice has a distinct composition and motion language: glitch, serene pan, parchment drafting, blade flash, mana rings, water refraction, split polarity, cyber scan, twin gates, golden spiral, floral kaleidoscope, smoke displacement, world-tree rise, ink-map movement, black flame, Sandevistan chrome overload, or Musical Score inferno.
+These are not one template recolored twenty times. Every rice has a distinct composition and motion language: glitch, serene pan, parchment drafting, blade flash, mana rings, water refraction, split polarity, cyber scan, twin gates, golden spiral, floral kaleidoscope, smoke displacement, world-tree rise, ink-map movement, black flame, Sandevistan chrome overload, Musical Score inferno, kinetic film typography, card-debt dominoes, or underwater knockout cuts.
 
-All seventeen intentionally:
+All twenty intentionally:
 
 - use a 10-second, 1920×1080, 24 FPS H.264 animated wallpaper;
 - include an animated/frosted bar treatment and an active visualizer;
@@ -77,7 +83,7 @@ All seventeen intentionally:
 - disable the calendar desktop widget;
 - work with `ryoku-hub rice ...` and appear automatically in Ryoku Kasane.
 
-Edgerunners and Demon Slayer additionally bundle complete custom animated Qylock themes under their `lockscreen/` directories. The installer places these into the user's Qylock theme library automatically.
+Edgerunners, Demon Slayer, Fight Club, Lock Stock, and Snatch additionally bundle complete custom animated Qylock themes under their `lockscreen/` directories. The installer places these into the user's Qylock theme library automatically.
 
 ## Preview gallery
 

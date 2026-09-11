@@ -1,0 +1,720 @@
+{
+  "schema": 1,
+  "slug": "lock-stock-debt-domino",
+  "name": "Lock, Stock and Two Smoking Barrels \u2014 Debt Domino",
+  "author": "infocrash",
+  "createdWith": "0.59.7-beta.19",
+  "color": {
+    "mode": "fixed",
+    "palette": "palette.json",
+    "themeApps": true
+  },
+  "assets": {
+    "wallpaper": "wall.mp4",
+    "hero": "hero.jpg",
+    "cursor": "Bibata-Modern-Ice",
+    "fastfetch": "emblem.png",
+    "fastfetchStyle": "fastfetch.jsonc",
+    "lock": "lock-stock-antique-evidence",
+    "palette": "palette.json"
+  },
+  "look": {
+    "decor": {
+      "addons.installed": {
+        "posX": 0.5,
+        "posY": 0.5,
+        "shot": 0,
+        "src": "rice://decor-addons-installed.png",
+        "zoom": 1
+      },
+      "anim.motion": {
+        "posX": 0.5,
+        "posY": 0.5,
+        "shot": 0,
+        "src": "rice://decor-anim-motion.gif",
+        "zoom": 1
+      },
+      "connections.hero": {
+        "posX": 0.5,
+        "posY": 0.5,
+        "shot": 0,
+        "src": "rice://decor-connections-hero.png",
+        "zoom": 1
+      },
+      "gpu.render": {
+        "posX": 0.5,
+        "posY": 0.5,
+        "shot": 0,
+        "src": "rice://decor-gpu-render.png",
+        "zoom": 1
+      },
+      "input.map": {
+        "posX": 0.5,
+        "posY": 0.5,
+        "shot": 0,
+        "src": "rice://decor-input-map.png",
+        "zoom": 1
+      }
+    },
+    "hypr": {
+      "anim": {
+        "curves": [],
+        "items": []
+      },
+      "appearance": {
+        "activeBorder": "#e6c06e",
+        "activeOpacity": 1,
+        "animatedBorder": true,
+        "animations": true,
+        "blurBrightness": 1,
+        "blurContrast": 0.8916,
+        "blurEnabled": true,
+        "blurIgnoreOpacity": true,
+        "blurNewOptimizations": true,
+        "blurNoise": 0.01,
+        "blurPasses": 2,
+        "blurPopups": false,
+        "blurSize": 6,
+        "blurSpecial": false,
+        "blurVibrancy": 0.22,
+        "blurVibrancyDarkness": 0,
+        "blurXray": false,
+        "borderAngleSpeed": 3,
+        "borderPartOfWindow": true,
+        "borderSize": 3,
+        "dimAround": 0.4,
+        "dimInactive": true,
+        "dimModal": true,
+        "dimSpecial": 0.2,
+        "dimStrength": 0.18,
+        "extendBorderGrab": 15,
+        "fullscreenOpacity": 1,
+        "gapsIn": 6,
+        "gapsOut": 11,
+        "gapsWorkspaces": 0,
+        "glowColor": "#e6c06e",
+        "glowEnabled": true,
+        "glowRange": 12,
+        "hoverIconOnBorder": true,
+        "inactiveBorder": "#302d31",
+        "inactiveOpacity": 0.91,
+        "layout": "dwindle",
+        "noFocusFallback": false,
+        "resizeCorner": 0,
+        "resizeOnBorder": true,
+        "rounding": 8,
+        "roundingPower": 2,
+        "shadowColor": "#000000",
+        "shadowEnabled": true,
+        "shadowPower": 5,
+        "shadowRange": 30,
+        "shadowScale": 1,
+        "shadowSharp": false,
+        "snapEnabled": false,
+        "windowStyle": "pop",
+        "wobblyWindows": false
+      },
+      "cursor": {
+        "hideOnKeyPress": false,
+        "inactiveTimeout": 0,
+        "size": 24,
+        "theme": "Bibata-Modern-Ice"
+      },
+      "dwindle": {
+        "defaultSplitRatio": 1,
+        "forceSplit": "follow",
+        "preserveSplit": false,
+        "smartResizing": true,
+        "smartSplit": false,
+        "useActiveForSplits": true
+      },
+      "master": {
+        "mfact": 0.55,
+        "newOnTop": false,
+        "newStatus": "slave",
+        "orientation": "left",
+        "smartResizing": true
+      },
+      "plugins": {
+        "dynamicCursors": {
+          "enabled": true,
+          "magnify": 4,
+          "mode": "tilt",
+          "shake": true
+        },
+        "hyprbars": {
+          "blur": true,
+          "buttons": true,
+          "enabled": false,
+          "height": 26,
+          "textSize": 11
+        },
+        "hyprfocus": {
+          "bounce": 0.97,
+          "enabled": true,
+          "mode": "slide",
+          "opacity": 0.86,
+          "slide": 18
+        },
+        "hyprglass": {
+          "blurStrength": 2,
+          "brightness": 1,
+          "enabled": false,
+          "opacity": 1,
+          "preset": "clear",
+          "theme": "dark",
+          "tint": "8899aa22"
+        },
+        "hyprscrolling": {
+          "columnWidth": 0.5,
+          "followFocus": true
+        },
+        "imgborders": {
+          "blur": false,
+          "enabled": false,
+          "image": "",
+          "insets": "0,0,0,0",
+          "scale": 1,
+          "sizes": "8,8,8,8",
+          "smooth": true
+        },
+        "keysounds": {
+          "enabled": true,
+          "profile": "topre",
+          "release": false,
+          "volume": 0.21
+        }
+      }
+    },
+    "launcher": {
+      "bgBlur": 0,
+      "heroPosX": 0.72,
+      "heroPosY": 0.4,
+      "heroStrength": 0.5,
+      "radius": 4,
+      "resultSettleMs": 200,
+      "showGreeting": true,
+      "showWeather": true,
+      "variant": "hero"
+    },
+    "ryogami": {},
+    "shell": {
+      "barStyle": "qsbar",
+      "bars": {
+        "bottom_bar": {
+          "center_widgets": [],
+          "left_widgets": [],
+          "minimum_height": 0,
+          "reveal_by_default": true,
+          "right_widgets": []
+        },
+        "frame": {
+          "enable_frame": true,
+          "monitor_filter": []
+        },
+        "left_bar": {
+          "bottom_widgets": [
+            "RecordingIndicator",
+            "Tray",
+            "Screenshot",
+            "Wallpaper",
+            "Clipboard",
+            "Notifications",
+            "AudioInput",
+            "AudioOutput",
+            "Bluetooth",
+            "Network",
+            "Battery",
+            "Clock"
+          ],
+          "center_widgets": [
+            "HyprlandDock"
+          ],
+          "minimum_width": 0,
+          "reveal_by_default": true,
+          "top_widgets": [
+            "QuickSettings",
+            "HyprlandWorkspaces"
+          ]
+        },
+        "right_bar": {
+          "bottom_widgets": [],
+          "center_widgets": [],
+          "minimum_width": 0,
+          "reveal_by_default": true,
+          "top_widgets": []
+        },
+        "top_bar": {
+          "center_widgets": [],
+          "left_widgets": [],
+          "minimum_height": 0,
+          "reveal_by_default": true,
+          "right_widgets": []
+        },
+        "widgets": {
+          "quick_settings": {
+            "icon": "Arch"
+          }
+        }
+      },
+      "dock": {
+        "autohide": true,
+        "edge": "left",
+        "enabled": true,
+        "frost": true,
+        "labels": true,
+        "magnify": true,
+        "media": false,
+        "pinned": [
+          "kitty",
+          "firefox",
+          "org.gnome.Nautilus",
+          "discord",
+          "org.telegram.desktop",
+          "ryotunes"
+        ],
+        "shadow": true,
+        "style": "seal"
+      },
+      "fontScale": 1.3,
+      "frameBars": {
+        "style": "ryoku-frame"
+      },
+      "frameBorder": 1,
+      "frameCorner": 0,
+      "frameEnabled": true,
+      "frameOpacity": 1,
+      "frameRadius": 0,
+      "frameThickness": 2,
+      "hubDecor": "rich",
+      "launcherTarget": "studio",
+      "menus": {
+        "clipboard_menu": {
+          "minimum_width": 410,
+          "position": "Left",
+          "widgets": [
+            {
+              "type": "Clipboard"
+            }
+          ]
+        },
+        "clock_menu": {
+          "minimum_width": 410,
+          "position": "Left",
+          "widgets": [
+            {
+              "type": "Weather"
+            }
+          ]
+        },
+        "left_menu_expansion_type": "AlwaysExpanded",
+        "notification_menu": {
+          "minimum_width": 410,
+          "position": "Left",
+          "widgets": [
+            {
+              "type": "Notifications"
+            }
+          ]
+        },
+        "quick_settings_menu": {
+          "minimum_width": 410,
+          "position": "Left",
+          "widgets": [
+            {
+              "type": "Clock"
+            },
+            {
+              "type": "Network"
+            },
+            {
+              "type": "Bluetooth"
+            },
+            {
+              "type": "AudioOutput"
+            },
+            {
+              "type": "AudioInput"
+            },
+            {
+              "type": "PowerProfiles"
+            },
+            {
+              "type": "MediaPlayer"
+            },
+            {
+              "size": 20,
+              "type": "Spacer"
+            },
+            {
+              "actions": [
+                "AirplaneMode",
+                "NightLight",
+                "ColorPicker",
+                "Settings"
+              ],
+              "type": "QuickActions"
+            },
+            {
+              "size": 20,
+              "type": "Spacer"
+            },
+            {
+              "actions": [
+                "Logout",
+                "Lock",
+                "Reboot",
+                "Shutdown"
+              ],
+              "type": "QuickActions"
+            }
+          ]
+        },
+        "right_menu_expansion_type": "AlwaysExpanded",
+        "wallpaper_menu": {
+          "minimum_width": 1200,
+          "position": "Bottom",
+          "widgets": [
+            {
+              "type": "ThemePicker"
+            },
+            {
+              "type": "Wallpaper"
+            }
+          ]
+        }
+      },
+      "nacre": {
+        "edgeMelt": 8,
+        "frame": true,
+        "frameRoundness": 9,
+        "frameSize": 9,
+        "height": 40,
+        "islandGap": 14,
+        "islandScale": 1,
+        "islands": {
+          "center": [
+            "clock",
+            "workspaces",
+            "resources"
+          ],
+          "left": [
+            "brand",
+            "media",
+            "activeWindow"
+          ],
+          "right": [
+            "connectivity",
+            "audio",
+            "battery",
+            "notifications",
+            "tray"
+          ]
+        },
+        "occupiedWorkspaces": true,
+        "opacity": 0.82,
+        "osdScale": 1,
+        "padding": 12,
+        "spacing": 8,
+        "workspaceStyle": "dots"
+      },
+      "notifications": {
+        "notification_position": "Right",
+        "popup_window_margins": 0
+      },
+      "obi": {},
+      "osdOpacity": 1,
+      "osdRadius": 6,
+      "qsbar": {
+        "aiTools": [
+          "codex"
+        ],
+        "audioBoost": false,
+        "barAnim": 2.5,
+        "barAutoHide": false,
+        "barBorderEnabled": true,
+        "barColor": "color01",
+        "barCornerRadius": 11,
+        "barFrostEnabled": true,
+        "barGapBottom": 5,
+        "barGapLeft": 0,
+        "barGapRight": 0,
+        "barGapTop": 0,
+        "barPosition": "bottom",
+        "barScale": 1,
+        "barSeps": [
+          "G2"
+        ],
+        "barShadowEnabled": true,
+        "barShellStyle": "fit",
+        "barTemperatureSource": "cpu",
+        "iconOnlyGids": [],
+        "launcherLogoMode": "text",
+        "layout": {
+          "center": [
+            "clock"
+          ],
+          "left": [
+            "launcher",
+            "workspaces",
+            "status",
+            "media",
+            "cpu",
+            "volume",
+            "memory",
+            "ai"
+          ],
+          "right": [
+            "quick",
+            "network",
+            "gpu",
+            "cputemp",
+            "power",
+            "battery",
+            "brightness",
+            "storage",
+            "bluetooth",
+            "layout"
+          ],
+          "version": 1
+        },
+        "mprisBarStyle": "full",
+        "panelTooltipBorderEnabled": true,
+        "pickerStyle": "carousel",
+        "widgetColorStyles": "-",
+        "widgetGeom": {},
+        "widgets": {
+          "battery": true,
+          "bluetooth": false,
+          "brightness": false,
+          "claude": true,
+          "cpu": true,
+          "cpuTemperature": false,
+          "gpu": false,
+          "layout": false,
+          "media": true,
+          "memory": true,
+          "mpris": true,
+          "network": true,
+          "power": false,
+          "quick": true,
+          "status": true,
+          "storage": false,
+          "volume": true,
+          "weather": true
+        },
+        "workspaceMode": "active",
+        "workspaceStyle": "dots"
+      },
+      "roundness": 0,
+      "surfaceColor": "#141218",
+      "theme": {
+        "attributes": {
+          "font": {
+            "primary": "",
+            "secondary": "",
+            "tertiary": ""
+          },
+          "sizing": {
+            "border_width": 2,
+            "radius_widget": 8,
+            "radius_window": 8
+          },
+          "window_opacity": 1
+        },
+        "matugen": {
+          "contrast": 0,
+          "mode": "Dark",
+          "preference": "Darkness",
+          "scheme_type": "TonalSpot"
+        },
+        "motion": {
+          "reduce": false,
+          "scale": 1
+        },
+        "theme": "hancore-blackgold"
+      },
+      "themePalette": {
+        "background": "#0D0D0D",
+        "error": "#D35F5F",
+        "errorContainer": "#1b1d1b",
+        "inverseOnSurface": "#0D0D0D",
+        "inverseSurface": "#ebdbb2",
+        "onBackground": "#ebdbb2",
+        "onError": "#0D0D0D",
+        "onErrorContainer": "#D35F5F",
+        "onPrimary": "#0D0D0D",
+        "onPrimaryContainer": "#6E6A58",
+        "onSecondary": "#0D0D0D",
+        "onSecondaryContainer": "#a3850e",
+        "onSurface": "#ebdbb2",
+        "onSurfaceVariant": "#F6F1DD",
+        "onTertiary": "#0D0D0D",
+        "onTertiaryContainer": "#4D574E",
+        "outline": "#BFA75D",
+        "outlineVariant": "#665a35",
+        "primary": "#6E6A58",
+        "primaryContainer": "#1b1d1b",
+        "scrim": "#000000",
+        "secondary": "#a3850e",
+        "secondaryContainer": "#1b1d1b",
+        "shadow": "#000000",
+        "surface": "#0D0D0D",
+        "surfaceContainer": "#1b1d1b",
+        "surfaceContainerHigh": "#544d32",
+        "surfaceContainerHighest": "#7d7043",
+        "surfaceContainerLow": "#141514",
+        "surfaceContainerLowest": "#0D0D0D",
+        "surfaceTint": "#6E6A58",
+        "surfaceVariant": "#1b1d1b",
+        "tertiary": "#4D574E",
+        "tertiaryContainer": "#1b1d1b"
+      },
+      "wallpaper": {
+        "content_fit": "Cover",
+        "transition_preset": "random",
+        "video_enabled": true,
+        "video_engine": "ryogami",
+        "video_transcode": false,
+        "video_transcode_fps": 24,
+        "video_transcode_width": 1920
+      }
+    },
+    "theme": {
+      "followWallpaper": false,
+      "scheme": "",
+      "themeApps": true
+    },
+    "visualizer": {
+      "adaptive": true,
+      "angle": 0,
+      "bars": 82,
+      "bloom": 0.9,
+      "enabled": true,
+      "fps": 30,
+      "gain": 1.25,
+      "grow": "up",
+      "h": 0.62,
+      "idleWave": true,
+      "mirror": false,
+      "peaks": true,
+      "reflection": 0.22,
+      "segments": 16,
+      "shape": "sharp",
+      "smoothing": 0.4,
+      "spin": 0.08,
+      "style": "bars",
+      "thickness": 0.58,
+      "tiltX": 0,
+      "tiltY": 0,
+      "w": 0.62,
+      "wave": true,
+      "x": 0.19,
+      "y": 0.34
+    },
+    "widgets": {
+      "aioAnchor": "free",
+      "aioColor": "",
+      "aioColor2": "",
+      "aioEnabled": false,
+      "aioGradient": false,
+      "aioLocked": true,
+      "aioOpacity": 1,
+      "aioScale": 1,
+      "aioStyle": "wide",
+      "aioX": 576,
+      "aioY": 0,
+      "calendarAnchor": "free",
+      "calendarColor": "",
+      "calendarColor2": "",
+      "calendarEnabled": false,
+      "calendarGradient": false,
+      "calendarHolidayRegion": "",
+      "calendarLocked": false,
+      "calendarOpacity": 1,
+      "calendarScale": 1,
+      "calendarStyle": "glass",
+      "calendarWeekNumbers": true,
+      "calendarWeeks": 6,
+      "calendarX": 1184,
+      "calendarY": 64,
+      "clock24h": true,
+      "clockAccent": "palette",
+      "clockAnchor": "free",
+      "clockBg": "none",
+      "clockColor": "",
+      "clockColor2": "",
+      "clockDesign": "analog",
+      "clockEnabled": true,
+      "clockGradient": false,
+      "clockLocked": true,
+      "clockOpacity": 1,
+      "clockRadius": 26,
+      "clockScale": 1,
+      "clockSeconds": true,
+      "clockX": 64,
+      "clockY": 160,
+      "dateDesign": "inline",
+      "dateShow": true,
+      "musicAnchor": "free",
+      "musicApp": "",
+      "musicColor": "",
+      "musicColor2": "",
+      "musicEnabled": true,
+      "musicGradient": false,
+      "musicLocked": false,
+      "musicLyrics": true,
+      "musicOpacity": 0.86,
+      "musicScale": 0.78,
+      "musicShape": "wide",
+      "musicStyle": "cover",
+      "musicVideo": "canvas",
+      "musicVideoFile": "",
+      "musicViz": "wave",
+      "musicX": 928,
+      "musicY": 0,
+      "notesAnchor": "right",
+      "notesColor": "",
+      "notesColor2": "",
+      "notesEnabled": false,
+      "notesGradient": false,
+      "notesHeight": 180,
+      "notesLocked": false,
+      "notesOpacity": 1,
+      "notesScale": 1,
+      "notesWidth": 260,
+      "notesX": 80,
+      "notesY": 80,
+      "statsAnchor": "bottom-right",
+      "statsColor": "",
+      "statsColor2": "",
+      "statsEnabled": true,
+      "statsGradient": false,
+      "statsLocked": true,
+      "statsOpacity": 1,
+      "statsScale": 0.9,
+      "statsX": 1024,
+      "statsY": 0,
+      "weatherAnchor": "top-right",
+      "weatherColor": "",
+      "weatherColor2": "",
+      "weatherDesign": "compact",
+      "weatherEnabled": false,
+      "weatherGradient": false,
+      "weatherLocked": false,
+      "weatherOpacity": 1,
+      "weatherScale": 1,
+      "weatherX": 80,
+      "weatherY": 80,
+      "widgetFont": ""
+    }
+  },
+  "blurb": "A rigged card game detonates across a sepia London caper: rotating hands, \u00a3500,000 debt telemetry, intersecting heist routes, antique shotgun rails, and a separate green-felt evidence lockscreen.",
+  "tags": [
+    "movie",
+    "animated",
+    "crime-cinema",
+    "lock-stock",
+    "custom-lockscreen"
+  ]
+}

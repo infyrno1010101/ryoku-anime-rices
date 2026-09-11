@@ -1,0 +1,8 @@
+[SddmGreeterTheme]
+Name=Fight Club Cigarette Burn Changeover
+Description=Animated Tyler projection-booth and reel-change lockscreen
+Author=infocrash
+Type=sddm-theme
+MainScript=Main.qml
+ConfigFile=theme.conf
+QtVersion=6

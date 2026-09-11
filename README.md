@@ -1,14 +1,14 @@
 # Ryoku Anime Rices
 
-Seventeen highly animated, full-desktop native rices for the Ryoku Arch Linux/Hyprland environment. Each rice packages its animated wallpaper, fixed palette, Fastfetch identity, lockscreen selection, animated bar and dock layout, widgets, Hyprland effects, visualizer, cursor treatment, and mechanical key-sound profile.
+Twenty highly animated, full-desktop native rices for the Ryoku Arch Linux/Hyprland environment. Each rice packages its animated wallpaper, fixed palette, Fastfetch identity, lockscreen selection, animated bar and dock layout, widgets, Hyprland effects, visualizer, cursor treatment, and mechanical key-sound profile.
 
 > **Fan project:** This repository is unofficial and is not affiliated with, endorsed by, or sponsored by the series creators, publishers, animation studios, or rights holders. Series names and source imagery remain the property of their respective owners. See [Credits and media notice](CREDITS.md).
 
 ## Design promise
 
-These are not one template recolored seventeen times. Every rice has a distinct composition and motion language: glitch, serene pan, parchment drafting, blade flash, mana rings, water refraction, split polarity, cyber scan, twin gates, golden spiral, floral kaleidoscope, smoke displacement, world-tree rise, ink-map movement, black flame, Sandevistan chrome overload, or Musical Score inferno.
+These are not one template recolored twenty times. Every rice has a distinct composition and motion language: glitch, serene pan, parchment drafting, blade flash, mana rings, water refraction, split polarity, cyber scan, twin gates, golden spiral, floral kaleidoscope, smoke displacement, world-tree rise, ink-map movement, black flame, Sandevistan chrome overload, Musical Score inferno, kinetic film typography, card-debt dominoes, or underwater knockout cuts.
 
-All seventeen intentionally:
+All twenty intentionally:
 
 - use a 10-second, 1920×1080, 24 FPS H.264 animated wallpaper;
 - include an animated/frosted bar treatment and an active visualizer;
@@ -17,7 +17,7 @@ All seventeen intentionally:
 - disable the calendar desktop widget;
 - work with `ryoku-hub rice ...` and appear automatically in Ryoku Kasane.
 
-Edgerunners and Demon Slayer additionally bundle complete custom animated Qylock themes under their `lockscreen/` directories. The installer places these into the user's Qylock theme library automatically.
+Edgerunners, Demon Slayer, Fight Club, Lock Stock, and Snatch additionally bundle complete custom animated Qylock themes under their `lockscreen/` directories. The installer places these into the user's Qylock theme library automatically.
 
 ## Preview gallery
 
@@ -42,6 +42,9 @@ Each image below is a five-second animated GIF preview that plays directly on th
 | **Black Torch — Mononoke Ember**<br><code>black-torch-mononoke-ember</code> | ![Animated preview for Black Torch — Mononoke Ember](previews/black-torch-mononoke-ember.gif) | Character key art surrounded by rising embers, spirit particles, and black-flame strokes. **Bar:** top islands. **Keys:** tealios. |
 | **Cyberpunk: Edgerunners — Moonfall Overdrive**<br><code>cyberpunk-edgerunners-moonfall-overdrive</code> | ![Animated preview for Cyberpunk: Edgerunners — Moonfall Overdrive](previews/cyberpunk-edgerunners-moonfall-overdrive.gif) | David's cyberskeleton assault becomes a Sandevistan storm of gravity rings, cyberpsychosis fractures, and Night City telemetry; includes a separate Lucy lunar lockscreen. **Bar:** bottom full. **Keys:** cherry-mx-blue. |
 | **Demon Slayer — Musical Score Inferno**<br><code>demon-slayer-musical-score-inferno</code> | ![Animated preview for Demon Slayer — Musical Score Inferno](previews/demon-slayer-musical-score-inferno.gif) | Tengen versus Gyutaro erupts through Musical Score rings, Nichirin crescents, blood sickles, and lantern ash; includes a separate sibling/wisteria lockscreen. **Bar:** top fit. **Keys:** holy-panda. |
+| **Fight Club — Project Mayhem**<br><code>fight-club-project-mayhem</code> | ![Animated preview for Fight Club — Project Mayhem](previews/fight-club-project-mayhem.gif) | Tyler's direct-camera identity manifesto uses FightThis kinetic typography and impact shake; includes a separate projection-booth cigarette-burn lockscreen. **Bar:** top full. **Keys:** cherry-mx-brown. |
+| **Lock, Stock and Two Smoking Barrels — Debt Domino**<br><code>lock-stock-debt-domino</code> | ![Animated preview for Lock, Stock and Two Smoking Barrels — Debt Domino](previews/lock-stock-debt-domino.gif) | A widescreen card-and-cash caper drives rotating hands, a £500,000 debt counter, and heist-route motion; includes a separate antique-shotgun evidence lockscreen. **Bar:** bottom fit. **Keys:** topre. |
+| **Snatch — Fourth Round Diamond**<br><code>snatch-fourth-round-diamond</code> | ![Animated preview for Snatch — Fourth Round Diamond](previews/snatch-fourth-round-diamond.gif) | Mickey cycles through underwater knockdown, suspended slow motion, and recovery while diamond and dog-track telemetry orbit; includes a separate 84-carat vault lockscreen. **Bar:** top islands. **Keys:** holy-panda. |
 
 ## Install
 
@@ -234,6 +237,30 @@ The Entertainment District climax becomes a maximal Musical Score interface: Ten
 
 ```bash
 ryoku-hub rice apply demon-slayer-musical-score-inferno
+```
+
+### Fight Club — Project Mayhem
+
+Tyler addresses the camera through violent handheld shake and timed identity-manifesto typography, paired with a separate 4K-derived projection-booth cigarette-burn changeover lockscreen.
+
+```bash
+ryoku-hub rice apply fight-club-project-mayhem
+```
+
+### Lock, Stock and Two Smoking Barrels — Debt Domino
+
+A rigged card game detonates across a sepia London caper: rotating hands, £500,000 debt telemetry, intersecting heist routes, antique shotgun rails, and a separate green-felt evidence lockscreen.
+
+```bash
+ryoku-hub rice apply lock-stock-debt-domino
+```
+
+### Snatch — Fourth Round Diamond
+
+Mickey’s fourth-round refusal to stay down drives underwater slow motion, knockout flashes, teal-and-gold ensemble cuts, a rotating diamond, and a separate dog-track Diamond Vault lockscreen.
+
+```bash
+ryoku-hub rice apply snatch-fourth-round-diamond
 ```
 
 ## Safety and recovery

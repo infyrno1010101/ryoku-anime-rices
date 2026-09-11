@@ -6,10 +6,13 @@ ROOT = Path(__file__).resolve().parents[1]
 RICES = ROOT / "rices"
 PREVIEWS = ROOT / "previews"
 POSTERS = ROOT / "docs" / "posters"
-EXPECTED = 17
+EXPECTED = 20
 CUSTOM_LOCKS = {
     "cyberpunk-edgerunners-moonfall-overdrive": "edgerunners-moon-promise",
     "demon-slayer-musical-score-inferno": "demon-slayer-wisteria-blood-moon",
+    "fight-club-project-mayhem": "fight-club-cigarette-burn-changeover",
+    "lock-stock-debt-domino": "lock-stock-antique-evidence",
+    "snatch-fourth-round-diamond": "snatch-diamond-vault",
 }
 
 errors = []

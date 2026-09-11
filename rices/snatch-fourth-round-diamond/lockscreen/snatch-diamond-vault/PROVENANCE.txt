@@ -1,0 +1,8 @@
+Snatch Diamond Vault lockscreen
+
+Design, QML, procedural diamond vault, dog-track orbit, safe dial, and Ryoku integration: infocrash.
+
+Story reference: https://www.imdb.com/title/tt0208092/plotsummary
+No film still is reused in the lockscreen background; the diamond, vault, and tracks are original procedural artwork inspired by the film's stolen-stone plot.
+
+Snatch remains property of its respective creators and rights holders. Unofficial noncommercial personal-use fan theme.

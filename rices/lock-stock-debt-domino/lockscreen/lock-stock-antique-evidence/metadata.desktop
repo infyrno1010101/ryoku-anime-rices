@@ -1,0 +1,8 @@
+[SddmGreeterTheme]
+Name=Lock Stock Antique Evidence
+Description=Animated antique-shotgun evidence-table lockscreen
+Author=infocrash
+Type=sddm-theme
+MainScript=Main.qml
+ConfigFile=theme.conf
+QtVersion=6

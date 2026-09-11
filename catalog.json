@@ -168,5 +168,35 @@
     "bar": "fit",
     "position": "top",
     "lock": "demon-slayer-wisteria-blood-moon"
+  },
+  {
+    "slug": "fight-club-project-mayhem",
+    "name": "Fight Club — Project Mayhem",
+    "blurb": "Tyler addresses the camera through violent handheld shake and timed identity-manifesto typography, paired with a separate 4K-derived projection-booth cigarette-burn changeover lockscreen.",
+    "direction": "Tyler's direct-camera identity manifesto uses FightThis kinetic typography and impact shake; includes a separate projection-booth cigarette-burn lockscreen.",
+    "key_profile": "cherry-mx-brown",
+    "bar": "full",
+    "position": "top",
+    "lock": "fight-club-cigarette-burn-changeover"
+  },
+  {
+    "slug": "lock-stock-debt-domino",
+    "name": "Lock, Stock and Two Smoking Barrels — Debt Domino",
+    "blurb": "A rigged card game detonates across a sepia London caper: rotating hands, £500,000 debt telemetry, intersecting heist routes, antique shotgun rails, and a separate green-felt evidence lockscreen.",
+    "direction": "A widescreen card-and-cash caper drives rotating hands, a £500,000 debt counter, and heist-route motion; includes a separate antique-shotgun evidence lockscreen.",
+    "key_profile": "topre",
+    "bar": "fit",
+    "position": "bottom",
+    "lock": "lock-stock-antique-evidence"
+  },
+  {
+    "slug": "snatch-fourth-round-diamond",
+    "name": "Snatch — Fourth Round Diamond",
+    "blurb": "Mickey’s fourth-round refusal to stay down drives underwater slow motion, knockout flashes, teal-and-gold ensemble cuts, a rotating diamond, and a separate dog-track Diamond Vault lockscreen.",
+    "direction": "Mickey cycles through underwater knockdown, suspended slow motion, and recovery while diamond and dog-track telemetry orbit; includes a separate 84-carat vault lockscreen.",
+    "key_profile": "holy-panda",
+    "bar": "islands",
+    "position": "top",
+    "lock": "snatch-diamond-vault"
   }
 ]
